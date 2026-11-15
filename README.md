@@ -1,40 +1,57 @@
 # NetworkWalks Cybersecurity Internship – Week 2
 
-## Overview
-This repository documents the practical activities completed during Week 2 of the NetworkWalks Cybersecurity Internship, focusing on footprinting, reconnaissance, and network scanning.
+## Project Overview
+This repository documents Week 2 practical activities covering footprinting, reconnaissance, and network scanning using Kali Linux.
 
-## Objectives
-- Understand information gathering and reconnaissance techniques.
-- Explore DNS and domain information.
-- Identify web technologies and security configurations.
-- Practice network scanning in an authorized environment.
+## Modules
+- W2-PM1: Footprinting and Reconnaissance
+- W2-PM5: Network Scanning with Zenmap
+- W2-PM-FINAL: Penetration Testing Report
 
 ## Tools Used
-- Kali Linux
-- WHOIS
-- NSLookup
-- WhatWeb
-- cURL
-- DNSRecon
-- WAFW00F
-- Nmap / Zenmap
+Kali Linux, WHOIS, WhatWeb, NSLookup, cURL, WAFW00F, DNSRecon, Zenmap and Nmap.
 
-## Practical Activities
-### Task 1: Footprinting and Reconnaissance
-Collected publicly available information about an authorized target using domain lookup, DNS queries, and web technology identification tools.
+## W2-PM1: Footprinting and Reconnaissance
 
-### Task 2: Network Scanning
-Explored host discovery, port scanning, and service identification using Nmap / Zenmap in an authorized lab environment.
+### 1. WHOIS – Domain Information
+![WHOIS](screenshots/01-whois.png)
 
-## Screenshots and Evidence
-Screenshots and supporting reports will be added to the repository to document the practical work.
+### 2. WhatWeb – Technology Fingerprinting
+![WhatWeb](screenshots/02-whatweb.png)
 
-## Skills Learned
-- Reconnaissance and information gathering
-- DNS analysis
-- Web technology identification
-- Network scanning fundamentals
-- Technical documentation
+### 3. NSLookup – DNS Resolution
+![NSLookup](screenshots/03-nslookup.png)
+
+### 4. cURL – HTTP Headers
+![cURL](screenshots/04-curl.png)
+
+### 5. WAFW00F – WAF Detection
+![WAFW00F](screenshots/05-wafw00f.png)
+
+### 6. DNSRecon – DNS Enumeration
+![DNSRecon](screenshots/06-dnsrecon.png)
+
+## W2-PM5: Network Scanning
+
+### Network Configuration
+![Network Configuration](screenshots/07-network-config.png)
+
+### Zenmap Ping Scan
+![Zenmap Scan](screenshots/08-zenmap-scan.png)
+
+### Network Topology
+![Network Topology](screenshots/09-network-topology.png)
+
+## Final Report
+[View Week 2 Penetration Testing Report](reports/Networkwalks_Week2_Penetration_Testing_Report_Amaan.docx)
+
+## Learning Outcomes
+- Domain reconnaissance and DNS enumeration
+- Web technology and WAF identification
+- HTTP header analysis
+- Local network discovery
+- Network topology visualization
+- Security reporting and documentation
 
 ## Disclaimer
-All activities are intended for educational purposes and authorized security testing only.
+This repository is for educational purposes and authorized security testing only. The evidence and report should be attributed to the person who performed the documented work.
